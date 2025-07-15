@@ -154,13 +154,13 @@
                         <inertial pos="0 0 0.019"
                             quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" range="-2.79 0.71" />
+                        <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" range="-99999 99999" />
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="0 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_003" />
-                        <site name="wheel_front_r_site" pos="0 0 0.019" size="0.0465"/>
+                        <site name="wheel_front_r_site" pos="0 0 0.019"/>
                     </body>
                 </body>
             </body>
@@ -189,13 +189,13 @@
                         <inertial pos="0 0 0.019"
                             quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" range="-0.71 2.79" />
+                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" range="-99999 99999" />
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="1.32679e-06 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh" 
                         contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_012" />
-                        <site name="wheel_front_l_site" pos="0 0 0.019" size="0.0465"/>
+                        <site name="wheel_front_l_site" pos="0 0 0.019"/>
                     </body>
                 </body>
             </body>
@@ -224,13 +224,13 @@
                         <inertial pos="0 0 0.019"
                             quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" range="-2.79 0.71" />
+                        <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" range="-99999 99999" />
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="0 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_007" />
-                        <site name="wheel_back_r_site" pos="0 0 0.019" size="0.0465"/>
+                        <site name="wheel_back_r_site" pos="0 0 0.019"/>
                     </body>
                 </body>
             </body>
@@ -259,13 +259,13 @@
                         <inertial pos="0 0 0.019"
                             quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" range="-0.71 2.79" />
+                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" range="-99999 99999" />
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="1.32679e-06 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh" 
                         contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_015" />
-                        <site name="wheel_back_l_site" pos="0 0 0.019" size="0.0465"/>  
+                        <site name="wheel_back_l_site" pos="0 0 0.019"/>  
                     </body>
                 </body>
             </body>
