@@ -154,7 +154,7 @@
                         <inertial pos="0 0 0.019"
                             quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" limited="false" />
+                        <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" limited="true" range="-1000000 1000000" />
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="0 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh"
@@ -189,7 +189,7 @@
                         <inertial pos="0 0 0.019"
                             quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" limited="false"/>
+                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" limited="true" range="-1000000 1000000"    />
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="1.32679e-06 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh" 
@@ -224,7 +224,7 @@
                         <inertial pos="0 0 0.019"
                             quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" limited="false" />
+                        <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" limited="true" range="-1000000 1000000" />
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="0 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh"
@@ -259,7 +259,7 @@
                         <inertial pos="0 0 0.019"
                             quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
                             diaginertia="5.41e-05 2.81e-05 2.81e-05" />
-                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" limited="false"/>
+                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" limited="true" range="-1000000 1000000"/>
                         <geom size="0.0465 0.01595" pos="0 0 0.019" quat="1.32679e-06 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0" quat="-0.5 0.5 0.5 -0.5" type="mesh" 
