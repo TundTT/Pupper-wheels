@@ -129,12 +129,12 @@
                             quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
                             diaginertia="7.7e-05 7.55e-05 5.5e-06" />
                         <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" range="-2.79 0.71" />
-                        <geom size="0.01995" pos="0.06231 -0.06216 0.018" quat="1.32679e-06 0 0 1"
+                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
-                        <geom pos="0.0685 0.0494 -0.028" quat="1.32679e-06 0 0 1" type="mesh"
+                        <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_003" />
-                        <site name="wheel_front_r_foot_site" pos="0.06231 -0.06216 0.018" />
+                        <site name="wheel_front_r_foot_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
@@ -165,13 +165,12 @@
                             quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
                             diaginertia="7.7e-05 7.55e-05 5.5e-06" />
                         <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" range="-0.71 2.79" />
-                        <geom size="0.01995" pos="0.06231 0.06216 0.018" quat="1.32679e-06 0 0 1"
+                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
-                        <geom pos="0.0685 -0.0494 -0.028"
-                            quat="1.76029e-12 1.32679e-06 1 1.32679e-06" type="mesh" contype="0"
+                        <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_012" />
-                        <site name="wheel_front_l_foot_site" pos="0.06231 0.06216 0.018" />
+                        <site name="wheel_front_l_foot_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
@@ -202,12 +201,12 @@
                             quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
                             diaginertia="7.7e-05 7.55e-05 5.5e-06" />
                         <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" range="-2.79 0.71" />
-                        <geom size="0.01995" pos="0.06231 -0.06216 0.018" quat="1.32679e-06 0 0 1"
+                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
-                        <geom pos="0.0685 0.0494 -0.028" quat="1.32679e-06 0 0 1" type="mesh"
+                        <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_007" />
-                        <site name="wheel_back_r_foot_site" pos="0.06231 -0.06216 0.018" />
+                        <site name="wheel_back_r_foot_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
@@ -238,13 +237,12 @@
                             quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
                             diaginertia="7.7e-05 7.55e-05 5.5e-06" />
                         <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" range="-0.71 2.79" />
-                        <geom size="0.01995" pos="0.06231 0.06216 0.018" quat="1.32679e-06 0 0 1"
+                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
-                        <geom pos="0.0685 -0.0494 -0.028"
-                            quat="1.76029e-12 1.32679e-06 1 1.32679e-06" type="mesh" contype="0"
+                        <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_015" />
-                        <site name="wheel_back_l_foot_site" pos="0.06231 0.06216 0.018" />
+                        <site name="wheel_back_l_foot_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
