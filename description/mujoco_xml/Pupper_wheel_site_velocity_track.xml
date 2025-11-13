@@ -20,23 +20,43 @@
 
         <!-- Meshes for the robot body and legs -->
         <mesh name="BodyV4v70_001" file="BodyV4v70_001.stl" />
+
+        <!--front right leg-->
+        <!--1-->
         <mesh name="LegAssemblyForFlangedv26_001" file="LegAssemblyForFlangedv26_001.stl" />
+        <!--2-->
         <mesh name="LegAssemblyForFlangedv26_002" file="LegAssemblyForFlangedv26_002.stl" />
-        <mesh name="LegAssemblyForFlangedv26_003" file="LegAssemblyForFlangedv26_003.stl" />
+        <!--3-->
+        <mesh name="LegAssemblyForFlangedv26_003" file="Wheel (Ethan).stl" />
+
+        <!--front left leg-->
+        <!--1-->
         <mesh name="LegAssemblyForFlangedv26_010" file="LegAssemblyForFlangedv26_010.stl"
             scale="1 -1 1" />
+        <!--2-->
         <mesh name="LegAssemblyForFlangedv26_011" file="LegAssemblyForFlangedv26_011.stl"
             scale="1 1 -1" />
-        <mesh name="LegAssemblyForFlangedv26_012" file="LegAssemblyForFlangedv26_012.stl"
+        <!--3-->
+        <mesh name="LegAssemblyForFlangedv26_012" file="Wheel (Ethan).stl"
             scale="1 1 -1" />
+
+        <!--back right leg-->
+        <!--1-->
         <mesh name="LegAssemblyForFlangedv26_005" file="LegAssemblyForFlangedv26_005.stl" />
+        <!--2-->
         <mesh name="LegAssemblyForFlangedv26_006" file="LegAssemblyForFlangedv26_006.stl" />
-        <mesh name="LegAssemblyForFlangedv26_007" file="LegAssemblyForFlangedv26_007.stl" />
+        <!--3-->
+        <mesh name="LegAssemblyForFlangedv26_007" file="Wheel (Ethan).stl" />
+
+        <!--back left leg-->
+        <!--1-->
         <mesh name="LegAssemblyForFlangedv26_013" file="LegAssemblyForFlangedv26_013.stl"
             scale="1 -1 1" />
+        <!--2-->
         <mesh name="LegAssemblyForFlangedv26_014" file="LegAssemblyForFlangedv26_014.stl"
             scale="1 1 -1" />
-        <mesh name="LegAssemblyForFlangedv26_015" file="LegAssemblyForFlangedv26_015.stl"
+        <!--3-->
+        <mesh name="LegAssemblyForFlangedv26_015" file="Wheel (Ethan).stl"
             scale="1 1 -1" />
     </asset>
 
