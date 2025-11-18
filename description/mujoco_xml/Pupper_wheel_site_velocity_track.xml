@@ -87,7 +87,7 @@
     <keyframe>
         <key name="home"
             qpos="0 0 0.28             1 0 0 0             0.0 0.0 0.0             0.0 0.0 0.0             0.0 0.0 0.0             0.0 0.0 0.0"
-            ctrl="1.0 0.0 0.0             -1.0 0.0 0.0             0.0 0.0 0.0             0.0 0.0 0.0" />
+            ctrl="0.0 0.0 0.0             0.0 0.0 0.0             0.0 0.0 0.0             0.0 0.0 0.0" />
     </keyframe>
 
     <!-- ================================================================================== -->
@@ -105,7 +105,7 @@
 
             <!-- ======================= Front Right Leg ======================= -->
             <!-- Leg Part 1 (Hip) -->
-            <body name="leg_front_r_1" pos="0.075 -0.0835 0" quat="0.707105 0.707108 0 0"
+            <body name="leg_front_r_1" pos="0.075 -0.0835 0" quat="0.5960 0.5960 -0.3798 0.3798"
                 gravcomp="0">
                 <inertial pos="0 0 0" mass="0.18" diaginertia="7.4e-05 5.8e-05 4.8e-05" />
                 <joint name="leg_front_r_1" pos="0 0 0" axis="0 0 1" range="-1.22 2.51" />
@@ -125,10 +125,9 @@
                     <!-- Leg Part 3 (Lower Leg/Wheel) -->
                     <body name="wheel_front_r" pos="0 -0.0494 0.0685" quat="0.707105 0 0.707108 0"
                         gravcomp="0">
-                        <inertial pos="0.03866 -0.03585 0.01833"
-                            quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
-                            diaginertia="7.7e-05 7.55e-05 5.5e-06" />
-                        <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" range="-2.79 0.71" />
+                        <inertial pos="0 0 0.035" mass="0.05"
+                            diaginertia="3.95e-05 3.95e-05 3.95e-05" />
+                        <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" limited="false" />
                         <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
@@ -141,7 +140,7 @@
 
             <!-- ======================= Front Left Leg ======================== -->
             <!-- Leg Part 1 (Hip) -->
-            <body name="leg_front_l_1" pos="0.075 0.0835 0" quat="0.707105 -0.707108 0 0"
+            <body name="leg_front_l_1" pos="0.075 0.0835 0" quat="0.5960 -0.5960 -0.3798 -0.3798"
                 gravcomp="0">
                 <inertial pos="0 0 0" mass="0.18" diaginertia="7.4e-05 5.8e-05 4.8e-05" />
                 <joint name="leg_front_l_1" pos="0 0 0" axis="0 0 1" range="-2.51 1.22" />
@@ -161,10 +160,9 @@
                     <!-- Leg Part 3 (Lower Leg/Wheel) -->
                     <body name="wheel_front_l" pos="0 -0.0494 0.0685"
                         quat="9.38184e-07 -0.707108 9.38187e-07 0.707105" gravcomp="0">
-                        <inertial pos="0.03866 0.03585 0.01833"
-                            quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
-                            diaginertia="7.7e-05 7.55e-05 5.5e-06" />
-                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" range="-0.71 2.79" />
+                        <inertial pos="0 0 0.035" mass="0.05"
+                            diaginertia="3.95e-05 3.95e-05 3.95e-05" />
+                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" limited="false" />
                         <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
@@ -177,7 +175,7 @@
 
             <!-- ======================== Back Right Leg ======================= -->
             <!-- Leg Part 1 (Hip) -->
-            <body name="leg_back_r_1" pos="-0.075 -0.0725 0" quat="0.707105 0.707108 0 0"
+            <body name="leg_back_r_1" pos="-0.075 -0.0725 0" quat="0.6406 0.6406 -0.2988 0.2988"
                 gravcomp="0">
                 <inertial pos="0 0 0" mass="0.18" diaginertia="7.4e-05 5.8e-05 4.8e-05" />
                 <joint name="leg_back_r_1" pos="0 0 0" axis="0 0 1" range="-1.22 2.51" />
@@ -197,10 +195,9 @@
                     <!-- Leg Part 3 (Lower Leg/Wheel) -->
                     <body name="wheel_back_r" pos="0 -0.0494 0.0685" quat="0.707105 0 0.707108 0"
                         gravcomp="0">
-                        <inertial pos="0.03866 -0.03585 0.01833"
-                            quat="0.270598 0.653281 -0.270598 0.653281" mass="0.05"
-                            diaginertia="7.7e-05 7.55e-05 5.5e-06" />
-                        <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" range="-2.79 0.71" />
+                        <inertial pos="0 0 0.035" mass="0.05"
+                            diaginertia="3.95e-05 3.95e-05 3.95e-05" />
+                        <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" limited="false" />
                         <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
@@ -213,7 +210,7 @@
 
             <!-- ========================= Back Left Leg ======================= -->
             <!-- Leg Part 1 (Hip) -->
-            <body name="leg_back_l_1" pos="-0.075 0.0725 0" quat="0.707105 -0.707108 0 0"
+            <body name="leg_back_l_1" pos="-0.075 0.0725 0" quat="0.6406 -0.6406 -0.2988 -0.2988"
                 gravcomp="0">
                 <inertial pos="0 0 0" mass="0.18" diaginertia="7.4e-05 5.8e-05 4.8e-05" />
                 <joint name="leg_back_l_1" pos="0 0 0" axis="0 0 1" range="-2.51 1.22" />
@@ -233,10 +230,9 @@
                     <!-- Leg Part 3 (Lower Leg/Wheel) -->
                     <body name="wheel_back_l" pos="0 -0.0494 0.0685"
                         quat="9.38184e-07 -0.707108 9.38187e-07 0.707105" gravcomp="0">
-                        <inertial pos="0.03866 0.03585 0.01833"
-                            quat="0.653281 0.270598 -0.653281 0.270598" mass="0.05"
-                            diaginertia="7.7e-05 7.55e-05 5.5e-06" />
-                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" range="-0.71 2.79" />
+                        <inertial pos="0 0 0.035" mass="0.05"
+                            diaginertia="3.95e-05 3.95e-05 3.95e-05" />
+                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" limited="false" />
                         <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="sphere" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
