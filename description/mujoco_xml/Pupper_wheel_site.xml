@@ -133,7 +133,7 @@
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_003" />
-                        <site name="wheel_front_r_foot_site" pos="0 0 0.035" />
+                        <site name="wheel_front_r_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
@@ -168,7 +168,7 @@
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_012" />
-                        <site name="wheel_front_l_foot_site" pos="0 0 0.035" />
+                        <site name="wheel_front_l_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
@@ -203,7 +203,7 @@
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_007" />
-                        <site name="wheel_back_r_foot_site" pos="0 0 0.035" />
+                        <site name="wheel_back_r_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
@@ -238,7 +238,7 @@
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_015" />
-                        <site name="wheel_back_l_foot_site" pos="0 0 0.035" />
+                        <site name="wheel_back_l_site" pos="0 0 0.035" />
                     </body>
                 </body>
             </body>
