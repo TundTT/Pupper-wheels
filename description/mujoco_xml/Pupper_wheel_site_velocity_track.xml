@@ -162,7 +162,7 @@
                         quat="9.38184e-07 -0.707108 9.38187e-07 0.707105" gravcomp="0">
                         <inertial pos="0 0 0.035" mass="0.05"
                             diaginertia="3.95e-05 3.95e-05 3.95e-05" />
-                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" limited="false" />
+                        <joint name="wheel_front_l" pos="0 0 0" axis="0 0 -1" limited="false" />
                         <geom size="0.04445 0.0075" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
@@ -232,7 +232,7 @@
                         quat="9.38184e-07 -0.707108 9.38187e-07 0.707105" gravcomp="0">
                         <inertial pos="0 0 0.035" mass="0.05"
                             diaginertia="3.95e-05 3.95e-05 3.95e-05" />
-                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" limited="false" />
+                        <joint name="wheel_back_l" pos="0 0 0" axis="0 0 -1" limited="false" />
                         <geom size="0.04445 0.0075" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
                             type="cylinder" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
@@ -261,22 +261,22 @@
         <!-- Front Right Leg Actuators -->
         <general joint="leg_front_r_1" name="leg_front_r_1" />
         <general joint="leg_front_r_2" name="leg_front_r_2" />
-        <velocity joint="wheel_front_r" name="wheel_front_r" kv="1" ctrlrange="-15 15"/>
+        <velocity joint="wheel_front_r" name="wheel_front_r" kv="5" ctrlrange="-15 15"/>
 
         <!-- Front Left Leg Actuators -->
         <general joint="leg_front_l_1" name="leg_front_l_1" />
         <general joint="leg_front_l_2" name="leg_front_l_2" />
-        <velocity joint="wheel_front_l" name="wheel_front_l" kv="1" ctrlrange="-15 15" />
+        <velocity joint="wheel_front_l" name="wheel_front_l" kv="5" ctrlrange="-15 15" />
 
         <!-- Back Right Leg Actuators -->
         <general joint="leg_back_r_1" name="leg_back_r_1" />
         <general joint="leg_back_r_2" name="leg_back_r_2" />
-        <velocity joint="wheel_back_r" name="wheel_back_r" kv="1" ctrlrange="-15 15" />
+        <velocity joint="wheel_back_r" name="wheel_back_r" kv="5" ctrlrange="-15 15" />
 
         <!-- Back Left Leg Actuators -->
         <general joint="leg_back_l_1" name="leg_back_l_1" />
         <general joint="leg_back_l_2" name="leg_back_l_2" />
-        <velocity joint="wheel_back_l" name="wheel_back_l" kv="1" ctrlrange="-15 15" />
+        <velocity joint="wheel_back_l" name="wheel_back_l" kv="5" ctrlrange="-15 15" />
     </actuator>
 
     <!-- ================================================================================== -->
