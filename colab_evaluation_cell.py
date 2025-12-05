@@ -12,14 +12,33 @@ print("Starting Post-Training Evaluation...")
 
 # 1. Verify GPU availability
 try:
+    # Explicitly ask for GPU
+    jax.config.update("jax_platform_name", "gpu")
+    
     devices = jax.devices()
     print(f"JAX is running on: {devices}")
-    if not any("gpu" in str(d).lower() for d in devices):
+    
+    # Check for GPU
+    gpu_available = any("gpu" in str(d).lower() for d in devices)
+    
+    if not gpu_available:
         print("WARNING: JAX is NOT using a GPU. Evaluation will be slow.")
+        print("Debug Info: Available devices:", jax.devices())
+        print("If you are on Colab, go to Runtime > Change runtime type > Hardware accelerator > GPU.")
     else:
         print("SUCCESS: JAX is using GPU.")
+        # Print detailed device info to confirm A100
+        for i, device in enumerate(devices):
+            print(f"Device {i}: {device.device_kind} (Platform: {device.platform})")
+            
 except Exception as e:
     print(f"Could not verify JAX devices: {e}")
+    # Fallback to default backend if explicit GPU fails
+    print("Falling back to default backend...")
+    try:
+        print(f"Default backend devices: {jax.devices()}")
+    except:
+        pass
 
 try:
     # 2. Check for required variables from training session

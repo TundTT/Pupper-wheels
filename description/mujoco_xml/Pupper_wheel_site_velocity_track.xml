@@ -128,8 +128,8 @@
                         <inertial pos="0 0 0.035" mass="0.05"
                             diaginertia="3.95e-05 3.95e-05 3.95e-05" />
                         <joint name="wheel_front_r" pos="0 0 0" axis="0 0 1" limited="false" />
-                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
-                            type="sphere" class="collision" />
+                        <geom size="0.04445 0.0075" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
+                            type="cylinder" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_003" />
@@ -163,8 +163,8 @@
                         <inertial pos="0 0 0.035" mass="0.05"
                             diaginertia="3.95e-05 3.95e-05 3.95e-05" />
                         <joint name="wheel_front_l" pos="0 0 0" axis="0 0 1" limited="false" />
-                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
-                            type="sphere" class="collision" />
+                        <geom size="0.04445 0.0075" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
+                            type="cylinder" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_012" />
@@ -198,8 +198,8 @@
                         <inertial pos="0 0 0.035" mass="0.05"
                             diaginertia="3.95e-05 3.95e-05 3.95e-05" />
                         <joint name="wheel_back_r" pos="0 0 0" axis="0 0 1" limited="false" />
-                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
-                            type="sphere" class="collision" />
+                        <geom size="0.04445 0.0075" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
+                            type="cylinder" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh"
                             contype="0" conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_007" />
@@ -233,8 +233,8 @@
                         <inertial pos="0 0 0.035" mass="0.05"
                             diaginertia="3.95e-05 3.95e-05 3.95e-05" />
                         <joint name="wheel_back_l" pos="0 0 0" axis="0 0 1" limited="false" />
-                        <geom size="0.04445" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
-                            type="sphere" class="collision" />
+                        <geom size="0.04445 0.0075" pos="0 0 0.035" quat="1.32679e-06 0 0 1"
+                            type="cylinder" class="collision" />
                         <geom pos="0 0 0.035" euler="0 -1.5708 1.5708" type="mesh" contype="0"
                             conaffinity="0" group="1" density="0"
                             mesh="LegAssemblyForFlangedv26_015" />
